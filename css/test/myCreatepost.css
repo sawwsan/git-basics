@@ -1,0 +1,32 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.clearfix:after {
+    display:block;
+    content:"";
+    clear:both;
+}
+#echo {
+    border: solid 1px black;
+    width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 25px;
+    margin-top: 50px;
+    text-align: center;
+    background: lightcyan;
+}
+.div {
+    margin: 0 auto;
+    width: 174px;
+    padding-top: 30px;
+}
+.btn {
+    padding: 5px;
+    font-size: 18px;
+}
+.btnpost {
+    margin: 30px 621px;
+}

@@ -1,0 +1,25 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.clearfix:after {
+    display:block;
+    content:"";
+    clear:both;
+}
+#mybtn {
+    padding: 5px;
+    margin: 0 620px;
+    margin-top: 10px;
+}
+#echo {
+    border: solid 1px black;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 30px;
+    background: #fafafa;
+    font-size: 20px;
+    text-align: center;
+}

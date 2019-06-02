@@ -1,0 +1,37 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.clearfix:after {
+    display:block;
+    content:"";
+    clear:both;
+}
+#formbox {
+    border: solid 1px black;
+    margin: 50px auto;
+    width: 380px;
+    padding: 40px;
+    background: lightgray;
+}
+.row {
+    margin-bottom: 10px;
+}
+.minirow {
+    padding: 5px 2px;
+}
+.btn {
+    padding: 5px 20px;
+}
+tr td {
+    border: solid 1px black;
+    padding: 10px;
+}
+table {
+    border: solid 1px black;
+}
+#restable {
+    padding: 10px;
+    margin: 50px auto;
+}

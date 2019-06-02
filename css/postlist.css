@@ -1,0 +1,22 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.clearfix:after {
+    display:block;
+    content:"";
+    clear:both;
+}
+#mytable {
+    border: solid 1px black;
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 10px 20px;
+    background: #fafafa;
+}
+#mytable h3 {
+    padding-bottom: 30px;
+    font-size: 30px;
+}
